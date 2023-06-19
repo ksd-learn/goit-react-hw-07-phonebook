@@ -7,5 +7,6 @@ export const filterSlice = createSlice({
     filterIn(state, action) {return state = action.payload}
   }
 })
+
 export const { filterIn } = filterSlice.actions;
 export default filterSlice.reducer;
